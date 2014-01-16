@@ -102,7 +102,9 @@ grunt.initConfig({
 });
 ```
 
-## Contributing
+## Requirements
+
+* [GNU m4](http://www.gnu.org/software/m4/)
 
 ## Release History
  * 2013-12-16 v0.1.0 First release
