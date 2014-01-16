@@ -54,12 +54,20 @@ Type: `String` or `Array`
 Default value: `'include'`
 
 Make m4 search directory for included files that are not found in the current working directory.
+If `options.include` is an array, then each item must be path to directory where an included files resides.
+If `options.include` is a string, then it may contain one or more paths separated with ':' or ';' 
+(depending on your host os).
+
 
 #### options.define
 Type: `Object`
 Default value: `{}`
 
 Add names into the symbol table.
+All key/value pairs in `options.define` will be converted to a separate macro definitions. 
+The key becomes a macro name and the corresponding value 
+becomes a substitute result of this macro invocation.
+
 
 ### Usage Examples
 
