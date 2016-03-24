@@ -54,7 +54,9 @@ Type: `String` or `Array`
 Default value: `'include'`
 
 Make m4 search directory for included files that are not found in the current working directory.
+
 If `options.include` is an array, then each item must be path to directory where an included files resides.
+
 If `options.include` is a string, then it may contain one or more paths separated with ':' or ';' 
 (depending on your host os).
 
