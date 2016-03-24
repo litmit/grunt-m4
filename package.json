@@ -34,9 +34,12 @@
     "grunt": "~0.4.2"
   },
   "peerDependencies": {
-    "grunt": "~0.4.2"
+    "grunt": ">=0.4.0"
   },
   "keywords": [
-    "gruntplugin", "m4", "macro", "preprocessor"
+    "gruntplugin",
+    "m4",
+    "macro",
+    "preprocessor"
   ]
 }
